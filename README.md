@@ -8,7 +8,8 @@ I have followed these steps to create the desired pivot table in Excel:
 
 1. Open the Excel sheet containing the data (Sheet1).
 2. Go to the "Insert" tab in the Excel ribbon and click on "PivotTable" under the Tables section.
-3. In the "Create PivotTable" dialog box, ensure that "Select a table or range" is selected and that the correct range is displayed in the "Table/Range" field.4. Choose where you want to place the pivot table. You can either select an existing worksheet or create a new one.
+3. In the "Create PivotTable" dialog box, ensure that "Select a table or range" is selected and that the correct range is displayed in the "Table/Range" field.
+4. Choose where you want to place the pivot table. You can either select an existing worksheet or create a new one.
 5. Click "OK" to create the pivot table.
 6. In the PivotTable Field List, drag the "Division" field to the "Rows" area.
 7. Drag the "Customer" field to the "Rows" area below the "Division" field.
@@ -19,9 +20,9 @@ I have followed these steps to create the desired pivot table in Excel:
 12. In the "Values" area, click on the drop-down arrow next to "Sum of Income" and select "Value Field Settings."
 13. In the "Value Field Settings" dialog box, make sure that "Sum" is selected and click "OK."
 
-This is how i have created the pivot table, which displays the sum of income according to the specified structure. The sheet which contains the pivot table i named it as "PivotTable".
+This is how i have created the pivot table, which displays the sum of income according to the specified structure. The sheet that contains the pivot table I named it as "PivotTable".
 
-14. Then To add a new column to sheet1 namely “Matched” which matches the IDs of sheet2 with the IDs of sheet1 and show the result as True or False, I've used this formula:
+14. Then, to add a new column in sheet1, namely “Matched” which matches the IDs of sheet2 with the IDs of sheet1 and show the result as True or False, I've used this formula:
 
 ```bash
   =IF(ISNUMBER(MATCH(A2,Sheet2!A:A,0)),TRUE,FALSE)
