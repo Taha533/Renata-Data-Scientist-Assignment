@@ -36,7 +36,7 @@ Additionally I've added another sheet namely "Filter", using this sheet you can 
 - Seaborn
 - Matplotlib
 - Scikit-Learn
-Used Python Version: 3.10.3
+- Used Python Version: 3.10.3
 
 If you don't have this libraries installed on your system. You can run this command to install these libraries:
 
