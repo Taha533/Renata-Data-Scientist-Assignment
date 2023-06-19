@@ -19,8 +19,7 @@ I have followed these steps to create the desired pivot table in Excel:
 12. In the "Values" area, click on the drop-down arrow next to "Sum of Income" and select "Value Field Settings."
 13. In the "Value Field Settings" dialog box, make sure that "Sum" is selected and click "OK."
 
-- This is how i have created the pivot table, which displays the sum of income according to the specified structure. The sheet which contains the pivot table is called "PivotTable"
-
+This is how i have created the pivot table, which displays the sum of income according to the specified structure. The sheet which contains the pivot table i named it as "PivotTable".
 
 14. Then To add a new column to sheet1 namely “Matched” which matches the IDs of sheet2 with the IDs of sheet1 and show the result as True or False, I've used this formula:
 
