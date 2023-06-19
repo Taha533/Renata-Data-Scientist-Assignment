@@ -42,7 +42,7 @@ Additionally I've added another sheet namely "Filter", using this sheet you can 
 If you don't have this libraries installed on your system. You can run this command to install these libraries:
 
 ```bash
-  !pip install requirements.txt
+    pip install -r requirements.txt
 ```
 For the assignment 2 section I've approached this way:
 
